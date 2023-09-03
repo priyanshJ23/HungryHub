@@ -1,0 +1,166 @@
+/* .row {
+    padding: 100px 0 50px 0;
+    max-width: 1200px;
+  }
+  
+  .text_div {
+    padding-right: 10%;
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+  }
+  
+  .text_header {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .text_content {
+    font-size: 24px;
+  }
+  
+  .image_div {
+    width: 80%;
+    margin-left: auto;
+  }
+  
+  .text_modal_header {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .text_modal_header::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 130px;
+    background-color: var(--primaryitemcolor);
+  }
+  
+  .image {
+    width: 100%;
+  }
+  
+  .about_modal {
+    padding: 30px;
+  }
+  
+  .about_body {
+    overflow-y: auto;
+    max-height: 300px;
+    margin-top: 20px;
+  }
+  
+  .button_modal_div {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .text_div {
+      padding-right: 0;
+      position: static;
+      transform: translateY(0);
+    }
+  
+    .image_div {
+      width: 70%;
+      margin: auto;
+      margin-top: 30px;
+    }
+  
+    .text_header,
+    .text_modal_header {
+      font-size: 36px;
+    }
+  
+    .text_content {
+      font-size: 20px;
+    }
+  
+    .button_modal_div {
+      margin-top: 10px;
+    }
+  
+    .about_modal {
+      padding: 20px;
+    }
+  }
+  #para
+  {
+    color: darkcyan;
+    margin-top: 3rem;
+    font-size: x-large;
+    font-weight: 500;
+  } */
+
+  .hero__content {
+    padding-top: 70px;
+  }
+  
+  .hero__title {
+    font-size: 2.5rem;
+    line-height: 55px;
+  }
+  
+  .hero__title span {
+    color: darkcyan
+  }
+  
+  .hero__content p {
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+  }
+  
+  .order__btn {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #df2020;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .order__btn:hover {
+    background: #212245;
+  }
+  
+  .order__btn:hover a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .hero__img {
+    margin: 30px;
+    width: 50%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .hero__content h5 {
+      font-size: 1rem;
+    }
+  
+    .hero__content p {
+      font-size: 0.8rem;
+      line-height: 25px;
+    }
+  
+    .hero__title {
+      font-size: 1.5rem;
+      line-height: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .hero__content {
+      text-align: center;
+    }
+  
+    .order__btn {
+      display: block;
+      margin: 0 auto;
+    }
+  }

@@ -1,0 +1,1 @@
+npm i bootstrap bootstrap-dark-5 express-validator react react-bootstrap react-dom react-router-dom
